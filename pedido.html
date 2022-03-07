@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos PASTELNAUTA</title>
+</head>
+<body>
+
+    <div align="center">
+        <h1>Haz tu pedido</h1>
+        <h2>Completa los campos y selecciona el pastel y la combinación que desees</h2> 
+    </div>
+    <br><br><br>
+    <div align="center">
+        <form action="/accion.js" >
+            <label for="nombre">Nombre Completo:</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="telefono">Telefono:</label><br>
+            <input type="tel" id="telefono" name="telefono"><br><br>
+
+            <label for="Correo">Correo:</label><br>
+            <input type="text" id="Correo" name="Correo"><br><br>
+
+            <label for="Sabor">Escoge tu sabor</label><br>
+            <select id="Sabor" name="Sabor">
+                <option value="Chocolate">Pastel de Chocolate......$250</option>
+                <option value="3 leches">Pastel de Tres leches.....$250</option>
+                <option value="Zanahoria">Pastel de Zanahoria.....$250</option>
+                <option value="Moka">Pastel de Moka.....$250)</option>
+                <option value="Red Velvet">Pastel de Red velvet.....$250</option>
+            </select>
+            <br><br>
+            <label for="Adorno">Escoge tu adorno</label><br>
+            <select id="adorno" name="adorno">
+                <option value="Chocolate">Chispas de Chocolate......$50</option>
+                <option value="L">Lunetas......$50</option>
+                <option value="F">Fresas......$50</option>
+                <option value="N">>Nuez......$50</option>
+                <option value="V">Vela......$30</option>
+            </select>
+            <br><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </form>
+
+    </div>
+
+    
